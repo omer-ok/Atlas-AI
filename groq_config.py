@@ -11,11 +11,14 @@ It will NOT make decisions or provide information outside the stored knowledge b
 # ── Groq API Configuration ────────────────────────────────────────────────────
 
 # Replace with your actual Groq API key
-GROQ_API_KEY = "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"
+#GROQ_API_KEY = "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"
+#GROQ_API_KEY = "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"
+#GROQ_API_KEY = "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"
+GROQ_API_KEY = "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"
 
 # Groq API Settings
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-GROQ_MODEL = "llama-3.3-70b-versatile"  # Free, fast, powerful (updated model)
+GROQ_MODEL = "openai/gpt-oss-120b"  # Free, fast, powerful (updated model)
 
 # System prompt that restricts AI to only use provided context
 GROQ_SYSTEM_PROMPT = """You are Atlas AI, an expert UK immigration guidance assistant powered by advanced AI.
